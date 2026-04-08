@@ -48,6 +48,11 @@ export default [
 		name: 'Bai2',
 		component: './QuestionBank',
 	},
+	{
+		path: '/quan-ly-cong-viec',
+		name: 'QuanLyCongViec',
+		component: './QuanLyCongViec',
+	},
 
 	///////////////////////////////////
 	

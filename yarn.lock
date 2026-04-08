@@ -2282,6 +2282,15 @@
     "estree-walker" "^2.0.2"
     "picomatch" "^2.3.1"
 
+"@sentry-internal/tracing@7.116.0":
+  "integrity" "sha512-y5ppEmoOlfr77c/HqsEXR72092qmGYS4QE5gSz5UZFn9CiinEwGfEorcg2xIrrCuU7Ry/ZU2VLz9q3xd04drRA=="
+  "resolved" "https://registry.npmjs.org/@sentry-internal/tracing/-/tracing-7.116.0.tgz"
+  "version" "7.116.0"
+  dependencies:
+    "@sentry/core" "7.116.0"
+    "@sentry/types" "7.116.0"
+    "@sentry/utils" "7.116.0"
+
 "@sentry-internal/tracing@7.68.0":
   "integrity" "sha512-nNKS/q21+Iqzxs2K7T/l3dZi8Z9s/uxsAazpk2AYhFzx9mFnPj1Xfe3dgbFoygNifE+IrpUuldr6D5HQamTDPQ=="
   "resolved" "https://registry.npmjs.org/@sentry-internal/tracing/-/tracing-7.68.0.tgz"
@@ -2304,6 +2313,14 @@
     "@sentry/utils" "7.68.0"
     "tslib" "^2.4.1 || ^1.9.3"
 
+"@sentry/core@7.116.0":
+  "integrity" "sha512-J6Wmjjx+o7RwST0weTU1KaKUAlzbc8MGkJV1rcHM9xjNTWTva+nrcCM3vFBagnk2Gm/zhwv3h0PvWEqVyp3U1Q=="
+  "resolved" "https://registry.npmjs.org/@sentry/core/-/core-7.116.0.tgz"
+  "version" "7.116.0"
+  dependencies:
+    "@sentry/types" "7.116.0"
+    "@sentry/utils" "7.116.0"
+
 "@sentry/core@7.68.0":
   "integrity" "sha512-mT3ObBWgvAky/QF3dZy4KBoXbRXbNsD6evn+mYi9UEeIZQ5NpnQYDEp78mapiEjI/TAHZIhTIuaBhj1Jk0qUUA=="
   "resolved" "https://registry.npmjs.org/@sentry/core/-/core-7.68.0.tgz"
@@ -2324,6 +2341,16 @@
     "hoist-non-react-statics" "^3.3.2"
     "tslib" "^2.4.1 || ^1.9.3"
 
+"@sentry/replay@^7.116.0":
+  "integrity" "sha512-OrpDtV54pmwZuKp3g7PDiJg6ruRMJKOCzK08TF7IPsKrr4x4UQn56rzMOiABVuTjuS8lNfAWDar6c6vxXFz5KA=="
+  "resolved" "https://registry.npmjs.org/@sentry/replay/-/replay-7.116.0.tgz"
+  "version" "7.116.0"
+  dependencies:
+    "@sentry-internal/tracing" "7.116.0"
+    "@sentry/core" "7.116.0"
+    "@sentry/types" "7.116.0"
+    "@sentry/utils" "7.116.0"
+
 "@sentry/replay@7.68.0":
   "integrity" "sha512-be8QT2pxcLOTuX6HBRkK0mCVwM97dU5ZLCeofI+xJEWcRnoJdbx00nFwvBXvvoCizbtf4YIMCGwaT2k5LrVxsQ=="
   "resolved" "https://registry.npmjs.org/@sentry/replay/-/replay-7.68.0.tgz"
@@ -2333,10 +2360,22 @@
     "@sentry/types" "7.68.0"
     "@sentry/utils" "7.68.0"
 
+"@sentry/types@7.116.0":
+  "integrity" "sha512-QCCvG5QuQrwgKzV11lolNQPP2k67Q6HHD9vllZ/C4dkxkjoIym8Gy+1OgAN3wjsR0f/kG9o5iZyglgNpUVRapQ=="
+  "resolved" "https://registry.npmjs.org/@sentry/types/-/types-7.116.0.tgz"
+  "version" "7.116.0"
+
 "@sentry/types@7.68.0":
   "integrity" "sha512-5J2pH1Pjx/029zTm3CNY9MaE8Aui81nG7JCtlMp7uEfQ//9Ja4d4Sliz/kV4ARbkIKUZerSgaRAm3xCy5XOXLg=="
   "resolved" "https://registry.npmjs.org/@sentry/types/-/types-7.68.0.tgz"
   "version" "7.68.0"
+
+"@sentry/utils@7.116.0":
+  "integrity" "sha512-Vn9fcvwTq91wJvCd7WTMWozimqMi+dEZ3ie3EICELC2diONcN16ADFdzn65CQQbYwmUzRjN9EjDN2k41pKZWhQ=="
+  "resolved" "https://registry.npmjs.org/@sentry/utils/-/utils-7.116.0.tgz"
+  "version" "7.116.0"
+  dependencies:
+    "@sentry/types" "7.116.0"
 
 "@sentry/utils@7.68.0":
   "integrity" "sha512-NecnQegvKARyeFmBx7mYmbI17mTvjARWs1nfzY5jhPyNc3Zk4M3bQsgIdnJ1t+jo93UYudlNND7hxhDzjcBAVg=="
@@ -5815,11 +5854,6 @@
   "resolved" "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz"
   "version" "1.0.6"
 
-"cookie@^1.0.1":
-  "integrity" "sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ=="
-  "resolved" "https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz"
-  "version" "1.1.1"
-
 "cookie@0.4.0":
   "integrity" "sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg=="
   "resolved" "https://registry.npmjs.org/cookie/-/cookie-0.4.0.tgz"
@@ -6004,7 +6038,7 @@
   "resolved" "https://registry.npmjs.org/crequire/-/crequire-1.8.1.tgz"
   "version" "1.8.1"
 
-"cross-env@^7.0.0":
+"cross-env@^7.0.3":
   "integrity" "sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw=="
   "resolved" "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz"
   "version" "7.0.3"
@@ -7782,15 +7816,15 @@
     "snapdragon" "^0.8.1"
     "to-regex" "^3.0.1"
 
-"fast-deep-equal@^3.1.1", "fast-deep-equal@3.1.1":
-  "integrity" "sha512-8UEa58QDLauDNfpbrX55Q9jrGHThw2ZMdOky5Gl1CDtVeJDPVrG4Jxx1N8jw2gkWaff5UUuX1KJd+9zGe2B+ZA=="
-  "resolved" "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz"
-  "version" "3.1.1"
-
-"fast-deep-equal@^3.1.3":
+"fast-deep-equal@^3.1.1", "fast-deep-equal@^3.1.3":
   "integrity" "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
   "resolved" "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
   "version" "3.1.3"
+
+"fast-deep-equal@3.1.1":
+  "integrity" "sha512-8UEa58QDLauDNfpbrX55Q9jrGHThw2ZMdOky5Gl1CDtVeJDPVrG4Jxx1N8jw2gkWaff5UUuX1KJd+9zGe2B+ZA=="
+  "resolved" "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz"
+  "version" "3.1.1"
 
 "fast-glob@^3.0.3", "fast-glob@^3.2.4", "fast-glob@^3.2.5", "fast-glob@^3.2.9":
   "integrity" "sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg=="
@@ -14704,7 +14738,7 @@
   "resolved" "https://registry.npmjs.org/react-docgen-typescript-dumi-tmp/-/react-docgen-typescript-dumi-tmp-1.22.1-0.tgz"
   "version" "1.22.1-0"
 
-"react-dom@*", "react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.3.0 || ^17.0.0", "react-dom@^16.3.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.6.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.6.1 || ^17", "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.8.5 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.0", "react-dom@^18.0.0 || ^17.0.1 || ^16.7.0", "react-dom@>= 16.8.0", "react-dom@>=16.0.0", "react-dom@>=16.11.0", "react-dom@>=16.3.0", "react-dom@>=16.4.0", "react-dom@>=16.8.0", "react-dom@>=16.9.0", "react-dom@>=18", "react-dom@16.x || 17.x":
+"react-dom@*", "react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.3.0 || ^17.0.0", "react-dom@^16.3.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.6.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.6.1 || ^17", "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.8.5 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.0", "react-dom@^18.0.0 || ^17.0.1 || ^16.7.0", "react-dom@>= 16.8.0", "react-dom@>=16.0.0", "react-dom@>=16.11.0", "react-dom@>=16.3.0", "react-dom@>=16.4.0", "react-dom@>=16.8.0", "react-dom@>=16.9.0", "react-dom@16.x || 17.x":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -15054,7 +15088,7 @@
     "raf" "^3.1.0"
     "tween-functions" "^1.0.1"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.13.1 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^16.6.1 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.3 || ^17 || ^18", "react@^16.8.5 || ^17.0.0 || ^18.0.0", "react@^16.x", "react@^17.0.0", "react@^18.0.0 || ^17.0.1 || ^16.7.0", "react@>= 16.3.0", "react@>= 16.8", "react@>= 16.8.0", "react@>=0.13", "react@>=0.14.9", "react@>=15", "react@>=15.0.0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.13.1", "react@>=16.3.0", "react@>=16.4.0", "react@>=16.8.0", "react@>=16.9.0", "react@>=18", "react@15.x || 16.x || 17.x || 18.x", "react@16.x || 17.x", "react@17.0.2":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.13.1 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^16.6.1 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.3 || ^17 || ^18", "react@^16.8.5 || ^17.0.0 || ^18.0.0", "react@^16.x", "react@^17.0.0", "react@^18.0.0 || ^17.0.1 || ^16.7.0", "react@>= 16.3.0", "react@>= 16.8", "react@>= 16.8.0", "react@>=0.13", "react@>=0.14.9", "react@>=15", "react@>=15.0.0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.13.1", "react@>=16.3.0", "react@>=16.4.0", "react@>=16.8.0", "react@>=16.9.0", "react@15.x || 16.x || 17.x || 18.x", "react@16.x || 17.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -16225,11 +16259,6 @@
   "integrity" "sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw=="
   "resolved" "https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz"
   "version" "2.0.0"
-
-"set-cookie-parser@^2.6.0":
-  "integrity" "sha512-oeM1lpU/UvhTxw+g3cIfxXHyJRc/uidd3yK1P242gzHds0udQBYzs3y8j4gCCW+ZJ7ad0yctld8RYO+bdurlvw=="
-  "resolved" "https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz"
-  "version" "2.7.2"
 
 "set-value@^2.0.0", "set-value@^2.0.1":
   "integrity" "sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw=="
