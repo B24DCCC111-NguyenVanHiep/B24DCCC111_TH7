@@ -49,9 +49,9 @@ export default [
 		component: './QuestionBank',
 	},
 	{
-		path: '/quan-ly-cong-viec',
-		name: 'QuanLyCongViec',
-		component: './QuanLyCongViec',
+		path: '/bai7',
+		name: 'Bai7',
+		component: './Bai7',
 	},
 
 	///////////////////////////////////
